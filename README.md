@@ -38,6 +38,7 @@ You can also run:
 You can add it to your ~/bin or PATH:
 ```bash
 chmod +x restore_minimized_all.sh
+
 mv restore_minimized_all.sh /usr/local/bin/restore_minimized_all.sh
 ```
 
