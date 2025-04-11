@@ -26,7 +26,7 @@ You can also run:
 ./restore_all_windows.sh -v     # Show version
 ./restore_all_windows.sh -h     # Show help message
 
-📦 Installation (Optional)
+## 📦 Installation (Optional)
 You can add it to your ~/bin or PATH:
 chmod +x restore_all_windows.sh
 mv restore_all_windows.sh /usr/local/bin/restore-all-windows
@@ -34,12 +34,12 @@ mv restore_all_windows.sh /usr/local/bin/restore-all-windows
 Then simply run:
 restore-all-windows
 
-🔐 Permissions
+## 🔐 Permissions
 This script uses AppleScript via osascript, which may require Accessibility permissions the first time it runs. If prompted:
 
 System Preferences → Security & Privacy → Accessibility → Add your terminal app (e.g. Terminal, iTerm)
 
-💡 Why Use This?
+## 💡 Why Use This?
 Ever opened dozens of apps, minimized a bunch of windows, and forgot what’s where?
 This script brings all your stuff back into view — instantly.
 
@@ -48,14 +48,14 @@ Great for:
 - Multitaskers with hidden Slack, Chrome, Notion windows
 - Anyone who hates clicking through the Dock
 
-🧩 Compatibility
+## 🧩 Compatibility
 macOS 11+ (Big Sur, Monterey, Ventura, Sonoma)
 
 Works with both Intel and Apple Silicon Macs
 
-🙌 Credits
+## 🙌 Credits
 Made by @sancheza
 
-📬 Feedback & Contributions
+## 📬 Feedback & Contributions
 Found a bug or want to improve it?
 Open an issue or submit a PR — contributions are welcome!
