@@ -23,7 +23,9 @@ A tiny but powerful macOS shell script that restores all minimized application w
 
 You can also run:
 
+
 ./restore_all_windows.sh -v     # Show version
+
 ./restore_all_windows.sh -h     # Show help message
 
 ## 📦 Installation (Optional)
