@@ -11,7 +11,7 @@ case "$1" in
   -h|--help)
     echo "Usage:"
     echo "  $0 \"Process Name\"     # Restore minimized windows for that process"
-    echo "  $0 showprocess         # List visible processes (for reference)"
+    echo "  $0 --showprocess         # List visible processes (for reference)"
     echo "  $0 -v | --version      # Show script version"
     echo "  $0 -h | --help         # Show this help message"
     exit 0
@@ -19,7 +19,7 @@ case "$1" in
 esac
 
 # List visible apps
-if [ "$1" == "showprocess" ]; then
+if [ "$1" == "--showprocess" ]; then
   echo "Visible running apps:"
   osascript -e 'tell application "System Events" to get name of (every process whose visible is true and background only is false)' \
     | tr ', ' '\n' | sed '/^$/d' | sort -f
