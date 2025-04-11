@@ -22,7 +22,7 @@ To restore windows for a specific application, use restore_minimized.sh instead.
 ## 🛠️ Usage
 
 ```bash
-./restore_all_windows.sh
+./restore_minimized_all.sh
 ```
 
 You can also run:
