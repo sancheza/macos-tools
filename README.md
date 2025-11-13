@@ -3,7 +3,7 @@
 
 # 🪟 Restore Minimized Windows (macOS)
 
-A tiny but powerful macOS shell script that restores all minimized application windows with a single command.
+A tiny macOS shell script that restores all minimized application windows with a single command.
 
 To restore windows for a specific application, use restore_minimized.sh instead.
 
