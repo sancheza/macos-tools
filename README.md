@@ -59,14 +59,14 @@ Great for:
 - Multitaskers with hidden Slack, Chrome, Notion windows
 - Anyone who hates clicking through the Dock
 
-## 🧩 Compatibility
+## Compatibility
 macOS 11+ (Big Sur, Monterey, Ventura, Sonoma)
 
 Works with both Intel and Apple Silicon Macs
 
-## 🙌 Credits
+## Credits
 Made by @sancheza
 
-## 📬 Feedback & Contributions
+## Feedback & Contributions
 Found a bug or want to improve it?
 Open an issue or submit a PR — contributions are welcome!
