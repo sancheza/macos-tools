@@ -1,7 +1,7 @@
 # macos-tools
 
 
-# 🪟 Restore Minimized Windows (macOS)
+# Restore Minimized Windows (macOS)
 
 A tiny macOS shell script that restores all minimized application windows with a single command.
 
@@ -9,17 +9,17 @@ To restore windows for a specific application, use restore_minimized.sh instead.
 
 ---
 
-## 🚀 Features
+## Features
 
-- ✅ Restores minimized windows for **all visible apps**
-- ✅ Simple, safe, and pure AppleScript via `osascript`
-- ✅ Works on **macOS Monterey, Ventura, Sonoma** (and likely earlier)
-- ✅ Includes `-h` and `-v` options for help/version
-- 🧠 Great for full-screen productivity setups, window tiling, and automation
+- Restores minimized windows for **all visible apps**
+- Simple, safe, and pure AppleScript via `osascript`
+- Works on **macOS Monterey, Ventura, Sonoma** (and likely earlier)
+- Includes `-h` and `-v` options for help/version
+- Great for full-screen productivity setups, window tiling, and automation
 
 ---
 
-## 🛠️ Usage
+## Usage
 
 ```bash
 ./restore_minimized_all.sh
@@ -34,7 +34,7 @@ You can also run:
 ./restore_minimized_all.sh -h     # Show help message
 ```
 
-## 📦 Installation (Optional)
+## Installation (Optional)
 You can add it to your ~/bin or PATH:
 ```bash
 chmod +x restore_minimized_all.sh
@@ -45,12 +45,12 @@ mv restore_minimized_all.sh /usr/local/bin/restore_minimized_all.sh
 Then simply run:
 restore_minimized_all.sh
 
-## 🔐 Permissions
+## Permissions
 This script uses AppleScript via osascript, which may require Accessibility permissions the first time it runs. If prompted:
 
 System Preferences → Security & Privacy → Accessibility → Add your terminal app (e.g. Terminal, iTerm)
 
-## 💡 Why Use This?
+## Why Use This?
 Ever opened dozens of apps, minimized a bunch of windows, and forgot what’s where?
 This script brings all your stuff back into view — instantly.
 
