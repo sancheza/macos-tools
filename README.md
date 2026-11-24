@@ -70,3 +70,7 @@ Made by @sancheza
 ## Feedback & Contributions
 Found a bug or want to improve it?
 Open an issue or submit a PR — contributions are welcome!
+
+## License
+
+[PolyForm Noncommercial License 1.0.0](LICENSE). Personal, educational, and other noncommercial use is allowed. Commercial use requires a separate license: open an issue titled "Commercial license" at <https://github.com/sancheza/macos-tools/issues>.
